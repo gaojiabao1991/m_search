@@ -1,0 +1,110 @@
+{
+  "settings": {
+    "number_of_shards": 3,
+    "number_of_replicas": 1
+  },
+  "mappings": {
+    "properties": {
+      "name": {
+        "type": "text "
+      },
+      "rate": {
+        "type": "float ",
+        "index": "false"
+      },
+      "rate_num": {
+        "type": "int ",
+        "doc_values": "false",
+        "index": "false"
+      },
+      "star5": {
+        "type": "float ",
+        "doc_values": "false",
+        "index": "false"
+      },
+      "star4": {
+        "type": "float ",
+        "doc_values": "false",
+        "index": "false"
+      },
+      "star3": {
+        "type": "float ",
+        "doc_values": "false",
+        "index": "false"
+      },
+      "star2": {
+        "type": "float ",
+        "doc_values": "false",
+        "index": "false"
+      },
+      "star1": {
+        "type": "float ",
+        "doc_values": "false",
+        "index": "false"
+      },
+      "short_post_num": {
+        "type": "int ",
+        "doc_values": "false",
+        "index": "false"
+      },
+      "post_num": {
+        "type": "int ",
+        "doc_values": "false",
+        "index": "false"
+      },
+      "type": {
+        "type": "keyword "
+      },
+      "director": {
+        "type": "text "
+      },
+      "writer": {
+        "type": "text "
+      },
+      "actor": {
+        "type": "text "
+      },
+      "country": {
+        "type": "keyword ",
+        "doc_values": "false"
+      },
+      "language": {
+        "type": "keyword ",
+        "doc_values": "false"
+      },
+      "online_date": {
+        "type": "date "
+      },
+      "online_year": {
+        "type": "date "
+      },
+      "length": {
+        "type": "int ",
+        "index": "false"
+      },
+      "db_url": {
+        "type": "keyword ",
+        "doc_values": "false",
+        "index": "false"
+      },
+      "mv_url": {
+        "type": "keyword ",
+        "doc_values": "false",
+        "index": "false"
+      },
+      "imdb_url": {
+        "type": "keyword ",
+        "doc_values": "false",
+        "index": "false"
+      },
+      "img": {
+        "type": "keyword ",
+        "doc_values": "false",
+        "index": "false"
+      },
+      "brief": {
+        "type": "text "
+      }
+    }
+  }
+}

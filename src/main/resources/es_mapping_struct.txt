@@ -1,0 +1,27 @@
+# 搜索(s), 过滤(f), 聚合(排序)(a), 返回(r)
+
+name - text //sr //
+rate - float //ar //index=false
+rate_num - int //r //doc_values=false, index=false
+star5 - float //r //doc_values=false, index=false
+star4 - float //r //doc_values=false, index=false
+star3 - float //r //doc_values=false, index=false
+star2 - float //r //doc_values=false, index=false
+star1 - float //r //doc_values=false, index=false
+short_post_num - int //r //doc_values=false, index=false
+post_num - int //r //doc_values=false, index=false
+type - keyword //far // 
+director - text //sr // 
+writer - text //sr //
+actor - text //sr //
+country - keyword //fr //doc_values=false
+language - keyword //fr //doc_values=false
+online_date - date //r //
+online_year - date //fa //
+length - int //fr //index=false
+db_url - keyword //r //doc_values=false, index=false
+mv_url - keyword //r //doc_values=false, index=false
+imdb_url - keyword //r //doc_values=false, index=false
+img - keyword //r //doc_values=false, index=false
+brief - text //sr //
+
